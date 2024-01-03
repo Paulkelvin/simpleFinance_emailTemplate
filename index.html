@@ -7,7 +7,10 @@
       href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body
     style="
@@ -31,7 +34,20 @@
       "
     >
       <!-- Hero Image Section -->
-      <div style="height: 50%; background-color: #d6efff; position: relative">
+      <header
+        style="height: 50%; background-color: #d6efff; position: relative"
+      >
+        <img
+          src="Assets/simpleFinance-Hero.png"
+          alt="simple finance hero visual"
+          style="
+            width: 200px;
+            transform: translateX(-50%);
+            position: absolute;
+            left: 50%;
+            bottom: 35%;
+          "
+        />
         <img
           src="./Assets/simpleFinance_logo.png"
           alt="Simple Finance Limited Logo"
@@ -44,10 +60,10 @@
             transform: translateX(-50%);
           "
         />
-      </div>
+      </header>
 
       <!-- Overlay Content Box -->
-      <div
+      <article
         style="
           position: absolute;
           top: 50%;
@@ -55,7 +71,7 @@
           right: 0;
           transform: translate(-50%, -50%);
           background-color: #fff;
-          padding: 30px;
+          padding: 20px;
           z-index: 2;
           width: 70%;
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -84,22 +100,50 @@
           secure loan application process. Here is how it works:
         </p>
         <!-- Process Visualization -->
-      <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 2rem;">
-        <div style="text-align: center;">
-          <span class="material-icons" style="font-size: 36px; color: #4caf50;">assignment</span>
-          <p style="margin: 4px 0 0; font-size: 14px;">Apply</p>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 2rem;
+          "
+        >
+          <div style="text-align: center">
+            <span
+              class="material-icons"
+              style="font-size: 36px; color: #4caf50; display: block"
+              >assignment</span
+            >
+            <p style="margin: 4px 0 0; font-size: 14px">Apply</p>
+          </div>
+          <span
+            class="material-icons"
+            style="font-size: 20px; color: #333; display: block"
+            >arrow_forward</span
+          >
+          <div style="text-align: center">
+            <span
+              class="material-icons"
+              style="font-size: 36px; color: #4caf50; display: block"
+              >fact_check</span
+            >
+            <p style="margin: 4px 0 0; font-size: 14px">Review</p>
+          </div>
+          <span
+            class="material-icons"
+            style="font-size: 20px; color: #333; display: block"
+            >arrow_forward</span
+          >
+          <div style="text-align: center">
+            <span
+              class="material-icons"
+              style="font-size: 36px; color: #4caf50; display: block"
+              >thumb_up</span
+            >
+            <p style="margin: 4px 0 0; font-size: 14px">Approve</p>
+          </div>
         </div>
-        <span class="material-icons" style="font-size: 20px; color: #333;">arrow_forward</span>
-        <div style="text-align: center;">
-          <span class="material-icons" style="font-size: 36px; color: #4caf50;">fact_check</span>
-          <p style="margin: 4px 0 0; font-size: 14px;">Review</p>
-        </div>
-        <span class="material-icons" style="font-size: 20px; color: #333;">arrow_forward</span>
-        <div style="text-align: center;">
-          <span class="material-icons" style="font-size: 36px; color: #4caf50;">thumb_up</span>
-          <p style="margin: 4px 0 0; font-size: 14px;">Approve</p>
-        </div>
-      </div>
 
         <p style="text-align: center">
           <a
@@ -117,10 +161,10 @@
           >
           <!-- More engaging button text -->
         </p>
-      </div>
+      </article>
 
       <!-- Footer Section -->
-      <div
+      <footer
         style="
           position: absolute;
           bottom: 0;
@@ -137,7 +181,7 @@
           justify-content: center;
         "
       >
-        <div style="text-align: center; position: absolute; bottom: 1rem">
+        <div style="text-align: center; position: absolute; bottom: 0.8rem">
           <p style="margin: 0; width: 100%; font-size: 14px">Warm Regards,</p>
           <p style="margin: 0; width: 100%; font-weight: bold; font-size: 16px">
             Eunice Onuigbo
@@ -158,7 +202,7 @@
             >
           </p>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
